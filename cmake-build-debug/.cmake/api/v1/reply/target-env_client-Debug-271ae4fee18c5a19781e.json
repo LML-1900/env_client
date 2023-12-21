@@ -1,0 +1,1128 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "env_client"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/home/lml/.local/lib/cmake/grpc/gRPCTargets.cmake",
+			"/home/lml/.local/lib/cmake/grpc/gRPCConfig.cmake",
+			"/home/lml/.local/lib/cmake/absl/abslTargets.cmake",
+			"/home/lml/.local/lib/cmake/absl/abslConfig.cmake",
+			"/home/lml/.local/lib/cmake/protobuf/protobuf-config.cmake",
+			"/home/lml/.local/lib/cmake/protobuf/protobuf-targets.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/Poco/PocoUtilTargets.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/Poco/PocoUtilConfig.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/Poco/PocoConfig.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/Poco/PocoXMLTargets.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/Poco/PocoXMLConfig.cmake",
+			"/snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/Poco/PocoFoundationTargets.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/Poco/PocoFoundationConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 15,
+				"parent" : 5
+			},
+			{
+				"file" : 1,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 125,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 107,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"file" : 5,
+				"parent" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 7,
+				"parent" : 11
+			},
+			{
+				"file" : 4,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 32,
+				"parent" : 13
+			},
+			{
+				"file" : 3,
+				"parent" : 14
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 990,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1070,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1150,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1166,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1118,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 670,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 510,
+				"parent" : 15
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 14,
+				"parent" : 11
+			},
+			{
+				"file" : 6,
+				"parent" : 23
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 64,
+				"parent" : 24
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 678,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 742,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 590,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 98,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 534,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 574,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 558,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 846,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 646,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 286,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 390,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1310,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1262,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1286,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 446,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 422,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1397,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1230,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1198,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 454,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 462,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1334,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1342,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1421,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 230,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1214,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 135,
+				"parent" : 15
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 9,
+				"parent" : 53
+			},
+			{
+				"command" : 4,
+				"file" : 9,
+				"line" : 29,
+				"parent" : 54
+			},
+			{
+				"file" : 8,
+				"parent" : 55
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 5,
+				"parent" : 56
+			},
+			{
+				"file" : 7,
+				"parent" : 57
+			},
+			{
+				"command" : 2,
+				"file" : 7,
+				"line" : 66,
+				"parent" : 58
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 3,
+				"parent" : 56
+			},
+			{
+				"command" : 4,
+				"file" : 12,
+				"line" : 76,
+				"parent" : 60
+			},
+			{
+				"file" : 11,
+				"parent" : 61
+			},
+			{
+				"command" : 3,
+				"file" : 11,
+				"line" : 10,
+				"parent" : 62
+			},
+			{
+				"file" : 10,
+				"parent" : 63
+			},
+			{
+				"command" : 2,
+				"file" : 10,
+				"line" : 66,
+				"parent" : 64
+			},
+			{
+				"command" : 4,
+				"file" : 9,
+				"line" : 29,
+				"parent" : 54
+			},
+			{
+				"file" : 14,
+				"parent" : 66
+			},
+			{
+				"command" : 3,
+				"file" : 14,
+				"line" : 8,
+				"parent" : 67
+			},
+			{
+				"file" : 13,
+				"parent" : 68
+			},
+			{
+				"command" : 2,
+				"file" : 13,
+				"line" : 66,
+				"parent" : 69
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "CARES_STATICLIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "POCO_ENABLE_CPP11"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "POCO_ENABLE_CPP14"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "POCO_HAVE_FD_EPOLL"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "POCO_OS_FAMILY_UNIX"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "POCO_UNBUNDLED"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_XOPEN_SOURCE=500"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/lml/.local/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2,
+					3
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"id" : "env_client::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/lml/.local/lib/libgrpc++.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/lml/.local/lib/libgrpc++_reflection.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/lml/.local/lib/libprotobuf.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libPocoNet.so.80",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libPocoUtil.so.80",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/lml/.local/lib/libgrpc++.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/lml/.local/lib/libgrpc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/home/lml/.local/lib/libcares.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/home/lml/.local/lib/libaddress_sorting.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/home/lml/.local/lib/libre2.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/home/lml/.local/lib/libupb.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/home/lml/.local/lib/libgpr.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "/home/lml/.local/lib/libabsl_random_distributions.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "/home/lml/.local/lib/libabsl_random_seed_sequences.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "/home/lml/.local/lib/libabsl_random_internal_pool_urbg.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "/home/lml/.local/lib/libabsl_random_internal_randen.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "/home/lml/.local/lib/libabsl_random_internal_randen_hwaes.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "/home/lml/.local/lib/libabsl_random_internal_randen_hwaes_impl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "/home/lml/.local/lib/libabsl_random_internal_randen_slow.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "/home/lml/.local/lib/libabsl_random_internal_platform.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/home/lml/.local/lib/libabsl_random_internal_seed_material.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "/home/lml/.local/lib/libabsl_random_seed_gen_exception.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/home/lml/.local/lib/libssl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/home/lml/.local/lib/libcrypto.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/lml/.local/lib/libprotobuf.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "/home/lml/.local/lib/libabsl_log_internal_check_op.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/home/lml/.local/lib/libabsl_leak_check.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/home/lml/.local/lib/libabsl_die_if_null.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "/home/lml/.local/lib/libabsl_log_internal_conditions.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "/home/lml/.local/lib/libabsl_log_internal_message.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "/home/lml/.local/lib/libabsl_log_internal_nullguard.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "/home/lml/.local/lib/libabsl_examine_stack.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "/home/lml/.local/lib/libabsl_log_internal_format.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "/home/lml/.local/lib/libabsl_log_internal_proto.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "/home/lml/.local/lib/libabsl_log_internal_log_sink_set.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "/home/lml/.local/lib/libabsl_log_sink.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "/home/lml/.local/lib/libabsl_log_entry.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/home/lml/.local/lib/libabsl_flags.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "/home/lml/.local/lib/libabsl_flags_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/home/lml/.local/lib/libabsl_flags_marshalling.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "/home/lml/.local/lib/libabsl_flags_reflection.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "/home/lml/.local/lib/libabsl_flags_config.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "/home/lml/.local/lib/libabsl_flags_program_name.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "/home/lml/.local/lib/libabsl_flags_private_handle_accessor.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "/home/lml/.local/lib/libabsl_flags_commandlineflag.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "/home/lml/.local/lib/libabsl_flags_commandlineflag_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/home/lml/.local/lib/libabsl_log_initialize.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "/home/lml/.local/lib/libabsl_log_globals.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "/home/lml/.local/lib/libabsl_log_internal_globals.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/home/lml/.local/lib/libabsl_hash.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "/home/lml/.local/lib/libabsl_city.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "/home/lml/.local/lib/libabsl_low_level_hash.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 35,
+				"fragment" : "/home/lml/.local/lib/libabsl_raw_hash_set.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 36,
+				"fragment" : "/home/lml/.local/lib/libabsl_hashtablez_sampler.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/home/lml/.local/lib/libabsl_statusor.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/home/lml/.local/lib/libabsl_status.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/home/lml/.local/lib/libabsl_cord.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "/home/lml/.local/lib/libabsl_cordz_info.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "/home/lml/.local/lib/libabsl_cord_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "/home/lml/.local/lib/libabsl_cordz_functions.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "/home/lml/.local/lib/libabsl_exponential_biased.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 39,
+				"fragment" : "/home/lml/.local/lib/libabsl_cordz_handle.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "/home/lml/.local/lib/libabsl_crc_cord_state.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 40,
+				"fragment" : "/home/lml/.local/lib/libabsl_crc32c.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 41,
+				"fragment" : "/home/lml/.local/lib/libabsl_crc_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 41,
+				"fragment" : "/home/lml/.local/lib/libabsl_crc_cpu_detect.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 42,
+				"fragment" : "/home/lml/.local/lib/libabsl_bad_optional_access.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 43,
+				"fragment" : "/home/lml/.local/lib/libabsl_str_format_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/home/lml/.local/lib/libabsl_strerror.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/home/lml/.local/lib/libabsl_synchronization.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/home/lml/.local/lib/libabsl_stacktrace.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/home/lml/.local/lib/libabsl_symbolize.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 45,
+				"fragment" : "/home/lml/.local/lib/libabsl_debugging_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 46,
+				"fragment" : "/home/lml/.local/lib/libabsl_demangle_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "/home/lml/.local/lib/libabsl_graphcycles_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "/home/lml/.local/lib/libabsl_malloc_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/home/lml/.local/lib/libabsl_time.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 48,
+				"fragment" : "/home/lml/.local/lib/libabsl_civil_time.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 48,
+				"fragment" : "/home/lml/.local/lib/libabsl_time_zone.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 49,
+				"fragment" : "/home/lml/.local/lib/libabsl_bad_variant_access.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/home/lml/.local/lib/libutf8_validity.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/home/lml/.local/lib/libabsl_strings.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 50,
+				"fragment" : "/home/lml/.local/lib/libabsl_throw_delegate.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "/home/lml/.local/lib/libabsl_int128.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 51,
+				"fragment" : "/home/lml/.local/lib/libabsl_strings_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/home/lml/.local/lib/libabsl_base.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 52,
+				"fragment" : "/home/lml/.local/lib/libabsl_raw_logging_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/home/lml/.local/lib/libabsl_log_severity.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 52,
+				"fragment" : "/home/lml/.local/lib/libabsl_spinlock_wait.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 52,
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/lml/.local/lib/libz.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 59,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libPocoXML.so.80",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 65,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libexpat.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 59,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libPocoJSON.so.80",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libPocoFoundation.so.80",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 70,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libpcre.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 70,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libz.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 70,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "env_client",
+	"nameOnDisk" : "env_client",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				4,
+				5
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "env_service.pb.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "env_service.grpc.pb.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "EnvMidWare.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EnvMidWare.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Dem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "env_service.pb.cc.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "EXECUTABLE"
+}

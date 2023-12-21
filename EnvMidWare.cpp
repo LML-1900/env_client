@@ -15,27 +15,29 @@ void EnvMidWare::CallGetDataRPC(const environmentdata::Area &area, int level, in
     GetDataResponse dataResponse;
     ClientContext context;
     std::unique_ptr<ClientReader<GetDataResponse> > reader(stub_->GetData(&context, request));
+    int count = 0;
     while (reader->Read(&dataResponse)) {
-        std::cout << "返回的瓦片ID：" << dataResponse.tileid() << std::endl;
+        count++;
+//        std::cout << "返回的瓦片ID：" << dataResponse.tileid() << std::endl;
         std::string decodeContent = decodeBase64ToString(dataResponse.content());
         //std::cout << "content: " << decodeContent << std::endl;
-        int craterSize = dataResponse.craters_size();
-        std::vector<Store::Crater> craters(craterSize);
-        for (int i = 0; i < craterSize; i++) {
-            Store::Crater crater;
-            Crater craterFromServer = dataResponse.craters(i);
-            crater.position.longitude = craterFromServer.pos().longitude();
-            crater.position.latitude = craterFromServer.pos().latitude();
-            crater.width = craterFromServer.width();
-            crater.depth = craterFromServer.depth();
-            printf("crater %d: pos: %lf-%lf\twidth:%lf\tdepth:%lf\n", i,
-                   crater.position.longitude, crater.position.latitude, crater.width, crater.depth);
-        }
-        std::cout << std::endl;
+//        int craterSize = dataResponse.craters_size();
+//        std::vector<Store::Crater> craters(craterSize);
+//        for (int i = 0; i < craterSize; i++) {
+//            Store::Crater crater;
+//            Crater craterFromServer = dataResponse.craters(i);
+//            crater.position.longitude = craterFromServer.pos().longitude();
+//            crater.position.latitude = craterFromServer.pos().latitude();
+//            crater.width = craterFromServer.width();
+//            crater.depth = craterFromServer.depth();
+//            printf("crater %d: pos: %lf-%lf\twidth:%lf\tdepth:%lf\n", i,
+//                   crater.position.longitude, crater.position.latitude, crater.width, crater.depth);
+//        }
+//        std::cout << std::endl;
     }
     Status status = reader->Finish();
     if (status.ok()) {
-        std::cout << "数据分发完成。" << std::endl;
+        std::cout << "数据分发完成,count: " << count << std::endl;
     }
 }
 
